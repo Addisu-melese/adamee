@@ -1,7 +1,14 @@
 <?php
-   $server_name="localhost";
+  /* $server_name="localhost";
    $user_name="root";
    $password="";
+   $charset="utf8mb4";
+*/
+  //Remot database
+  $server_name="remotemysql.com";
+   $user_name="Ud4XBgHcJB";
+   $password="xmAYY3STiz";
+   $db="Ud4XBgHcJB";
    $charset="utf8mb4";
    //_________________________________Connect db_____________________________________________________________________
    $db_connection= new mysqli($server_name, $user_name, $password);//connect the php with database
